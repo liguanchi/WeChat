@@ -2,6 +2,7 @@ package com.example.wechat
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.ArrayList
 
@@ -37,6 +38,11 @@ class MainActivity : AppCompatActivity() {
         val fruitAdapter = FruitAdapter(this,R.layout.fruit_item,fruitList)
 
         listViewTest.adapter = fruitAdapter
+
+        listViewTest.setOnItemClickListener { _, _, i, _ ->
+            val fruit = fruitList[i]
+            Toast.makeText(this,fruit.fruitTitle,Toast.LENGTH_SHORT).show()
+        }
 
 
 
