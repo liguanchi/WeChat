@@ -13,18 +13,18 @@ class MainActivity : AppCompatActivity() {
         repeat(1){
             Int
             fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","烧卖"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","啊"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","哦"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","噢"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","1111"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","222"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","333"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","444"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","555"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","666"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","777"))
+            fruitList.add(Fruit(R.drawable.animal_0,"aaa","888"))
         }
     }
 
