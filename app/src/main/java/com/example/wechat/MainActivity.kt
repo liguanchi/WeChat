@@ -1,5 +1,6 @@
 package com.example.wechat
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -42,6 +43,8 @@ class MainActivity : AppCompatActivity() {
         listViewTest.setOnItemClickListener { _, _, i, _ ->
             val fruit = fruitList[i]
             Toast.makeText(this,fruit.fruitTitle,Toast.LENGTH_SHORT).show()
+            val intent = Intent(this,ChatActivity::class.java)
+            startActivity(intent)
         }
 
 
