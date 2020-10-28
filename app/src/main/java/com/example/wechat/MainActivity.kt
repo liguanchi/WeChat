@@ -12,18 +12,18 @@ class MainActivity : AppCompatActivity() {
     fun initFruitList(){
         repeat(1){
             Int
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","菠萝卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","烧卖"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","啊"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","哦"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","噢"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","1111"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","222"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","333"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","444"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","555"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","666"))
-            fruitList.add(Fruit(R.drawable.animal_0,"aaa","777"))
+            fruitList.add(Fruit(R.drawable.wechat1,"徐顺瑜","菠萝卖"))
+            fruitList.add(Fruit(R.drawable.wechat2,"池","烧卖"))
+            fruitList.add(Fruit(R.drawable.wechat3,"阿龙","啊"))
+            fruitList.add(Fruit(R.drawable.wechat4,"阿威","哦"))
+            fruitList.add(Fruit(R.drawable.wechat5,"坤","噢"))
+            fruitList.add(Fruit(R.drawable.wechat6,"晓哥","1111"))
+            fruitList.add(Fruit(R.drawable.wechat1,"aaa","222"))
+            fruitList.add(Fruit(R.drawable.wechat2,"aaa","333"))
+            fruitList.add(Fruit(R.drawable.wechat3,"aaa","444"))
+            fruitList.add(Fruit(R.drawable.wechat4,"aaa","555"))
+            fruitList.add(Fruit(R.drawable.wechat5,"aaa","666"))
+            fruitList.add(Fruit(R.drawable.wechat6,"aaa","777"))
             fruitList.add(Fruit(R.drawable.animal_0,"aaa","888"))
         }
     }
